@@ -25,7 +25,7 @@ public class HelloController {
     @RequestMapping("/")
     @ResponseBody
     public String home() {
-        return "Hello, PythonDAS";
+        return "Hello, springboot";
     }
 
     @RequestMapping("home")
